@@ -1,0 +1,118 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+div {
+  float: left;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+ float: left;
+ padding: 10px;
+  width: 100%;
+  margin-left: 15px;
+  margin right: 10px;
+}
+.chicken-p1 {
+  background-color: #999999;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: left;
+  padding: 0px 0px 0px 5px;
+  border: 1px solid black;
+  margin: 10px;
+  }
+.beef-p2 {
+  background-color: #999999;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 0px 0px 0px 5px;
+  border: 1px solid black;
+  margin: 10px;
+  }
+.sushi-p3 {
+  background-color: #999999;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 0px 0px 0px 5px;
+  border: 1px solid black;
+  margin: 10px;
+  
+ }
+.chicken {
+  float: right;
+  text-align: center;
+  background-color: pink;
+  border: 1px solid black;
+  font-size: 22px;
+  font-weight: bold;
+  width: 150px;
+  height: 35px;
+  margin-top: auto;
+}
+.beef {
+  float: right;
+  color: white;
+  text-align: center;
+  background-color: red;
+  border: 1px solid black;
+  font-size: 22px;
+  font-weight: bold;
+  width: 150px;
+  height: 35px;
+  margin-top: auto;
+}
+.sushi {
+  float: right;
+  color: black;
+  text-align: center;
+  background-color: yellow;
+  border: 1px solid black;
+  font-size: 22px;
+  font-weight: bold;
+  width: 150px;
+  height: 35px;
+  margin-top: auto;
+}
+.text1 {
+  margin-top: 45px;
+}
+.text2 {
+  margin-top: 45px;
+}
+.text3 {
+  margin-top: 45px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .chicken-p1, .beef-p2, .sushi-p3 {
+    float: left;
+    margin:10px;
+  }
+  .chicken-p1 {
+width: 30%
+  }
+  .beef-p2 {
+    width: 30%;
+  }
+  .sushi-p3 {
+    width: 30%;
+  }
+}
+@media (min-width: 750px) and (max-width: 991px) {
+  .chicken-p1, .beef-p2, .sushi-p3 {
+    float:left;
+    margin: 10px;
+  }
+  .chicken-p1 {
+  width: 45.55%
+  }
+  .beef-p2 {
+    width: 45.55%;
+  }
+  .sushi-p3 {
+    width: 93.5%;
+  }
+}
