@@ -86,7 +86,7 @@ div {
 .text3 {
   margin-top: 45px;
 }
-@media (min-width: 992px) and (max-width: 1900px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .chicken-p1, .beef-p2, .sushi-p3 {
     float: left;
     margin:10px;
